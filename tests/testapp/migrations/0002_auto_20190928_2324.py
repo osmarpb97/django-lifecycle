@@ -2,7 +2,7 @@
 
 from django.db import migrations, models
 import django.db.models.deletion
-import django_lifecycle
+import django_lifecycle_flow
 
 
 class Migration(migrations.Migration):
@@ -21,7 +21,7 @@ class Migration(migrations.Migration):
             options={
                 'abstract': False,
             },
-            bases=(django_lifecycle.LifecycleModelMixin, models.Model),
+            bases=(django_lifecycle_flow.LifecycleModelMixin, models.Model),
         ),
         migrations.AddField(
             model_name='useraccount',

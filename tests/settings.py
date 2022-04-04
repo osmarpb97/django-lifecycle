@@ -44,7 +44,7 @@ INSTALLED_APPS = [
 
 # Django 1.8 requires that abstract model app is in INSTALLED_APPS
 if Version("1.8") <= Version(django.__version__) < Version("1.9"):
-    INSTALLED_APPS.append("django_lifecycle")
+    INSTALLED_APPS.append("django_lifecycle_flow")
 
 
 MIDDLEWARE = [

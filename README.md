@@ -12,7 +12,7 @@ This project provides a `@hook` decorator as well as a base model and mixin to a
 In short, you can write model code like this:
 
 ```python
-from django_lifecycle import LifecycleModel, hook, BEFORE_UPDATE, AFTER_UPDATE
+from django_lifecycle_flow import LifecycleModel, hook, BEFORE_UPDATE, AFTER_UPDATE
 
 
 class Article(LifecycleModel):

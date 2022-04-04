@@ -6,8 +6,8 @@ from django.utils import timezone
 from django.utils.functional import cached_property
 from urlman import Urls
 
-from django_lifecycle import hook
-from django_lifecycle.models import LifecycleModel
+from django_lifecycle_flow import hook
+from django_lifecycle_flow.models import LifecycleModel
 
 
 class CannotDeleteActiveTrial(Exception):

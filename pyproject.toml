@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-lifecycle-flow"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Osmar Perez Bautista <osmarpb.97@gmail.com>"]
 

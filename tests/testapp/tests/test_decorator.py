@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from django_lifecycle import hook
+from django_lifecycle_flow import hook
 
 
 class DecoratorTests(TestCase):

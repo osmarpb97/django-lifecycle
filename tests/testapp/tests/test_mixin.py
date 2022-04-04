@@ -2,7 +2,7 @@ from unittest.mock import MagicMock
 
 from django.test import TestCase
 
-from django_lifecycle import NotSet
+from django_lifecycle_flow import NotSet
 from tests.testapp.models import CannotRename, Organization, UserAccount
 
 

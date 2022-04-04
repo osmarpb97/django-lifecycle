@@ -1,7 +1,7 @@
 from functools import wraps
 from typing import List, Optional
 
-from django_lifecycle import NotSet
+from django_lifecycle_flow import NotSet
 
 from .hooks import VALID_HOOKS
 

@@ -13,7 +13,7 @@ These are available on your model instance when the mixin or extend the base mod
 You can use these methods for more advanced checks, for example:
 
 ```python
-from django_lifecycle import LifecycleModel, AFTER_UPDATE, hook
+from django_lifecycle_flow import LifecycleModel, AFTER_UPDATE, hook
 
 
 class UserAccount(LifecycleModel):

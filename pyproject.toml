@@ -6,7 +6,7 @@ authors = ["Osmar Perez Bautista <osmarpb.97@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-Django = "^3.2"
+Django = ">=3.2"
 urlman = "^2.0.1"
 packaging = "^21.3"
 
